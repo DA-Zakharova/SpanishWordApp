@@ -1,0 +1,76 @@
+.app {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+    background-color: #FFF7ED;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.traduccion {
+    margin-left: 20px;
+}
+
+h1 {
+    color: #C65A1E;
+    font-size: 42px;
+}
+
+h2 {
+    color: #4A3B2F;
+    font-size: 32px;
+}
+
+p {
+    color: #7A6655;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.nuevaPalabra {
+    background-color: #8B5E3C;
+    color: #FFF7ED;
+}
+
+.nuevaPalabra:hover {
+    background-color: #744C30;
+    cursor: pointer;
+}
+
+.traduccion {
+    background-color: #E6A23C;
+    color: #FFF7ED;
+}
+
+.traduccion:hover {
+    background-color: #D18B2C;
+    cursor: pointer;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:disabled {
+    background-color: #EADDCB;
+    color: #A89A8C;
+    cursor: not-allowed;
+}
+
+h1, h2, p, button {
+    font-family: "Open Sans", sans-serif;
+}
